@@ -1,0 +1,11 @@
+h1. Camping in Style
+
+!http://img87.imageshack.us/img87/1561/saab93camper.jpg!
+
+This User Script conditionally adds styles to provide more control over how Campfire formats messages.
+
+To configure it, edit the configuration source at the bottom of the script.  It should be self-explanatory (mostly).  If something goes wrong while loading (syntax / runtime error), the error message will show in an alert dialog.
+
+!http://img444.imageshack.us/img444/6969/campfireyesterdaydecembr.png!:http://img444.imageshack.us/img444/8307/campfireyesterdaydecemb.png
+
+It is tested to work with GreaseKit (FluidApp / Safari) and GreasyMonkey (Firefox) and was made by Tim Harper.
