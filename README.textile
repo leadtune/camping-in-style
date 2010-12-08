@@ -4,6 +4,8 @@ h1. Camping in Style
 
 This User Script conditionally adds styles to provide more control over how Campfire formats messages.
 
+To install, click on the "scroll" drop-down in the Campfire fluid app toolbar and click "Open Userscripts Folder". Copy "camping-in-style.user.js" to that folder and then click "Manage Userscripts" in the same drop-down. Select "Camping in Style" on the left and close that dialog. You may have to restart Campfire before existing Campfire sessions begin using the new style.
+
 To configure it, edit the configuration source at the bottom of the script.  It should be self-explanatory (mostly).  If something goes wrong while loading (syntax / runtime error), the error message will show in an alert dialog.
 
 !http://img444.imageshack.us/img444/6969/campfireyesterdaydecembr.png!:http://img444.imageshack.us/img444/8307/campfireyesterdaydecemb.png
