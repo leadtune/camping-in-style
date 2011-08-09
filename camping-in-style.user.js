@@ -129,7 +129,7 @@ if ($H) try {
   });
   
   /********************************************************************************* 
-  Your config goes here:
+  Your config goes here: (the defaults serve as an example)
   *********************************************************************************/
 
   addCSSRule(".hudson_success div.body", {"background-color": "green", "color": "white", "padding": "3px 0px", "font-weight": "bold;"}, true);
