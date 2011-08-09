@@ -14,7 +14,7 @@ try {
 
 Campfire = page.Campfire;
     
-try {
+if ($H) try {
   // * LIBRARY FUNCTIONS * //
   function getCSSRule(ruleName, deleteFlag) {
     ruleName=ruleName.toLowerCase(); 
