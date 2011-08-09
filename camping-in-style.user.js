@@ -100,7 +100,7 @@ if ($H) try {
     modifier = function(e) {
       superModifier && superModifier(e);
       return(fn(e));
-    }
+    };
   }
 
   function initialize() {
@@ -112,18 +112,18 @@ if ($H) try {
         messages = this.insertMessages_without_style_hook.apply(this, arguments);
         messages.each(function(message) {
           message_dom_id = "message_"+message.id();
-          el = page.$(message_dom_id)
+          el = page.$(message_dom_id);
           if (el) modifier(el);
         });
         return messages;
-      } catch(e) { alert(e); }
-    }
+      } catch(e) { alert(e); return([]);}
+    };
   }
 
   addModifier(function(e) {
-    cell = e.down("span.author")
+    cell = e.down("span.author");
     if(cell) {
-      name = cell.innerHTML.replace(/[^a-z0-9]/i, "").toLowerCase()
+      name = cell.innerHTML.replace(/[^a-z0-9]/i, "").toLowerCase();
       e.addClassName('user_' + name);
     }
   });
@@ -153,4 +153,4 @@ if ($H) try {
   // This needs to go at the end!
   initialize();
   
-} catch(e) { alert(e) }
+} catch(e) { alert(e); }
